@@ -1,11 +1,12 @@
 #include<stdio.h>
-/**
+/*
  *
- * task 4 */
-int main (void)
+ * task 4
+ */
+int main(void)
 {
 	puts ("\"Programming is like building a multilingual puzzle");
 
-	return (0);
+	return(0);
 }
 
