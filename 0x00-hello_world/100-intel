@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -fgnu-tm $CFILE -o ${CFILE%.c}.s
+gcc -S -fgnu-tm $CFILE -o ${CFILE%.c}.s
