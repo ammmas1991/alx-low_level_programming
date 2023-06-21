@@ -22,7 +22,6 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-
 	while (A <= Z)
 	{
 		putchar(A);
