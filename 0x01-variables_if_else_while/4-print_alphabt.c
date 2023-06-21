@@ -15,11 +15,11 @@ int main(void)
 
 	while (a <= z)
 	{
-		if ( a == 'e')
+		if (a == 'e')
 		{
 			a++;
 		}
-		else if ( a == 'q')
+		else if (a == 'q')
 		{
 			a++;
 		}
