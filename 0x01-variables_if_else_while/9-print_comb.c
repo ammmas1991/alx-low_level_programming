@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(48 + a);
 		if (a != 9)
-		{	
+		{
 			putchar(',');
 			putchar(' ');
 		}
