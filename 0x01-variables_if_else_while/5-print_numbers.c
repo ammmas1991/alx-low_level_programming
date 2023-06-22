@@ -10,16 +10,16 @@
 */
 int main(void)
 {
-	char a = 1;
-	char z = 10;
+	int a = 0;
+	int z = 10;
 
 	while (a < z)
 	{
-		putchar(a);
+		printf("%d", a);
 		a++;
 	}
 
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
