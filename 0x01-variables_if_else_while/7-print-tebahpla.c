@@ -11,10 +11,23 @@
 
 int main(void)
 {
-	short int a;
-        for (a = 0; a < 10; a++)
+	char a;
+	char x = 0;
+
+	do
 	{
-		putchar(48+a);
+		putchar(a);
+		a--;
+	}
+	while (a <= 'z');
+
+	putchar('\n');
+	
+	while (x != 10)
+	{
+		putchar(a);
+		a++;
+		x++;
 	}
 	putchar('\n');
 
