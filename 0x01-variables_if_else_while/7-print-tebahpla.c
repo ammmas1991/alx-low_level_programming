@@ -11,24 +11,14 @@
 
 int main(void)
 {
-	char a;
-	char x = 0;
+	char a = 'z';
 
-	do
+	while (a >= 'a')
 	{
 		putchar(a);
 		a--;
 	}
-	while (a <= 'z');
 
-	putchar('\n');
-	
-	while (x != 10)
-	{
-		putchar(a);
-		a++;
-		x++;
-	}
 	putchar('\n');
 
 	return (0);
